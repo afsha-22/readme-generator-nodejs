@@ -45,30 +45,30 @@ const questions = () => {
         message: 'How do people update the Tests for the project?',
       },
       {
-        type: 'input',
-        name: 'question',
-        message: 'Do you have any questions for other users?',
-      }
+          type: "input",
+          message: "What is your GitHub username?",
+          name: "github"
+      },
+      {
+          type: "input",
+          message: "What is your email address where users and contributors can send questions?",
+          name: "email"
+      },
     ]);
   };
 
-
 // TODO: Create a function to write README file
-function trial(data) {
+function write(data) {
    writeFileAsync('README.md', generateMarkdown(data))
 }
 
-
 // TODO: Create a function to initialize app
-// function init() {}
 const init = () => {
     questions()
-    //   .then((data) => writeToFile('README.md', data))
-      .then((data) => trial(data))
+      .then((data) => write(data))
       .then(() => console.log('Successfully wrote to README.md'))
       .catch((err) => console.error(err));
   };
-
 
 // Function call to initialize app
 init();

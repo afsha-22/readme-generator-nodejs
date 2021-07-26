@@ -59,7 +59,7 @@ const questions = () => {
 
 // TODO: Create a function to write README file
 function write(data) {
-   writeFileAsync('README.md', generateMarkdown(data))
+   writeFileAsync('./generatedREADME/README.md', generateMarkdown(data))
 }
 
 // TODO: Create a function to initialize app

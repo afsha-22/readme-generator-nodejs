@@ -1,6 +1,6 @@
 # README Generator
 
-![The README.md generator application](./asset/demo.mov)
+![The README.md generator application](./asset/demo.gif)
 
 > **Note**: The above mockup is not the true representation. Please try yourself for better experience.
 
@@ -17,4 +17,4 @@
 1. Download the copy of the project and open it in an IDE (preferably Visual Studio).
 2. Run `npm install` from the root folder to install all the dependencies.
 3. To generate the README.md, run `node index.js`, you will be present with series of questions.
-5. Once all the questions are answered, markdown file will be generated with the information provided by you.
+4. Once all the questions are answered, markdown file will be generated with the information provided by you.

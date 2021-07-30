@@ -4,6 +4,8 @@
 
 > **Note**: The above mockup is not the true representation. Please try yourself for better experience.
 
+Demonstration video including walkthrough of the functionalities : https://youtu.be/fpRxitvNABc
+
 ## Objectives & Functionalities:
 
 1. User can generate README.md file using this.
